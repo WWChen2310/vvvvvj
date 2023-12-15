@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b2686e09ec7aef44bad2843e4416f057, type: 3}
-  m_Name: SSS diffusion
+  m_Name: VFX SSS
   m_EditorClassIdentifier: 
   profile:
     scatteringDistance: {r: 1, g: 1, b: 1, a: 1}
-    scatteringDistanceMultiplier: 8
-    transmissionTint: {r: 39.861515, g: 39.861515, b: 39.861515, a: 1}
+    scatteringDistanceMultiplier: 0.3
+    transmissionTint: {r: 53.218246, g: 53.218246, b: 53.218246, a: 1}
     texturingMode: 0
-    transmissionMode: 1
-    thicknessRemap: {x: 0, y: 11.480705}
-    worldScale: 0.08
+    transmissionMode: 0
+    thicknessRemap: {x: 0, y: 50}
+    worldScale: 0.003
     ior: 1
-    hash: 1078867008
+    hash: 1075071678
   m_Version: 2
